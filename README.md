@@ -2,7 +2,8 @@
 
 This is a simple stopwatch application. You can use it to track time spent on tasks or for other purposes.
 
-![Stopwatch App Screenshot](./screenshots/screenshot.png)
+![image](https://user-images.githubusercontent.com/67556607/228088533-73742353-13a2-4b2a-b037-153e12da40a7.png)
+
 
 ### Installation and Setup
 
