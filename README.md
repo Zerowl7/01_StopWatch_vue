@@ -4,6 +4,17 @@ This is a simple stopwatch application. You can use it to track time spent on ta
 
 ![image](https://user-images.githubusercontent.com/67556607/228088533-73742353-13a2-4b2a-b037-153e12da40a7.png)
 
+### Features
+- Add multiple stopwatches
+- Start, stop, and reset each stopwatch individually
+- Responsively designed for different screen sizes
+
+### How it works
+The app is built with Vue.js, and uses a single component called StopwatchTimer to display each stopwatch. The main app component (App.vue) manages the list of timers and the grid layout.
+
+When the user clicks the "Add" button, a new timer object is added to the timers array in the data section of App.vue. The StopwatchTimer component is then created for each timer in the array using v-for directive.
+
+Each StopwatchTimer component has its own timer object passed as a prop, and it uses this to display and update the stopwatch.
 
 ### Installation and Setup
 
